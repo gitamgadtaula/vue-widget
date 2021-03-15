@@ -5,14 +5,9 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "App",
   props: { title: { default: "Send title" } },
-  components: {
-    HelloWorld,
-  },
 };
 </script>
 
