@@ -17,8 +17,8 @@
       />
     </div>
   </div>
-  <span v-else>
-    KEY DID NOT MATCH !!
+  <span v-else style="color:red;">
+   !! Un-Authorized to use vue-health widget !!
   </span>
 </template>
 
